@@ -20,10 +20,10 @@ Refresh the JungleTV page and you should see a new button with a "No" symbol ove
 
 For the second prompt, you can just enter the first letter of the choices, "P" or "T", but don't use quotes or square brackets.
 
-##credits
+## credits
 
 Credit goes to the Banano Discord user Lyeawden#1647, who posted the original snippet for use as a bookmark to block users on a per-session basis.
 
-##donations
+## donations
 
 ban_3epf75j3rhebutpnxd481657p9cdeoepnhest9tcerosdppaeu3m1s9k4f7n
