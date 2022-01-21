@@ -81,14 +81,14 @@
     function blockUsersP(){
         Object.values(blocklistP).forEach(
             function(nickname){
-                [...document.querySelectorAll(".chat-user-nickname")].filter(a => a.innerText.trim().toLowerCase() === nickname).forEach(a => a.parentElement.parentElement.style.display = "none");
+                [...document.querySelectorAll(".chat-user-nickname")].filter(a => a.innerText.trim().toLowerCase() === nickname).forEach(a => a.closest("p").style.display = "none");
             });
     }
 
     function blockUsersT(){
         Object.values(blocklistT).forEach(
             function(nickname){
-                [...document.querySelectorAll(".chat-user-nickname")].filter(a => a.innerText.trim().toLowerCase() === nickname).forEach(a => a.parentElement.parentElement.style.display = "none");
+                [...document.querySelectorAll(".chat-user-nickname")].filter(a => a.innerText.trim().toLowerCase() === nickname).forEach(a => a.closest("p").style.display = "none");
             });
     }
 
